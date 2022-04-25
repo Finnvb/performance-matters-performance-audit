@@ -5,7 +5,7 @@ Dit is een performance Audit voor de website van Walibi met behulp van Lighthous
 
 
 
-## ContentAudit
+## Content Audit
 Ik heb de website van Walibi geanalyseerd. Walibi is een attractiepark gelegen in Flevoland. Op de website kun je onder andere tickets bestellen. 
 
 - Testdatum: 25-4-2022
