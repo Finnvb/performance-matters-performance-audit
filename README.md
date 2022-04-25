@@ -27,9 +27,9 @@ De FCP geeft aan hoe lang het de browser duurt in seconden om het eerste stukje 
 
 Met een tijd van 0.6 sec. wordt het eerste stuk content snel geladen en gerendeerd. 
 
-<img width="400" src="https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png" />
+<img width="450" src="https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png" />
 
-<img width="400" src="https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png" />
+<img width="450" src="https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png" />
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png)
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png)
 
