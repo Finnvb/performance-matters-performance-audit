@@ -16,7 +16,6 @@ Ik heb de website van Walibi geanalyseerd. Walibi is een attractiepark gelegen i
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165129977-0cef0be2-53b3-4853-9cef-c4aea0fe09b6.png)
 
 ### First Contentful Paint (FCP)
-_Beschrijf de uitslag van de FCP van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
 De FCP geeft aan hoe lang het de browser duurt in seconden om het eerste stukje DOM content te renderen. 
 * 0 - 1.8 sec (groen) snel
@@ -40,7 +39,7 @@ Text-based bestanden kunnen worden gecomprimeerd om het totale aantal netwerkbyt
 
 
 ### Time to Interactive (TTI)
-_Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+
 De TTI geeft aan hoe lang het duurt voordat de webpagina volledig interactief is voor de gebruiker.
 
 Het duurt 3.2 seconden voordat de webpagina volledig interactief is voor de gebruiker. Dit geeft een oranje kleurcode aan en kan dus beter. Een manier om dit te verbeteren is om de execution time van Javascript te verminderen. Dit kan door onnodige Javascript code te verwijderen of om het op te splitsen. Nog een manier is om de workload op de main thread te minimaliseren.
@@ -49,12 +48,12 @@ Het duurt 3.2 seconden voordat de webpagina volledig interactief is voor de gebr
 
 
 ### Speed Index
-_Beschrijf de uitslag van de SI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
 De Speed Index meet hoe snel de inhoud van de webpagina visueel wordt weergegeven tijdens het laden van de webpagina.
 * 0–3.4 sec	(groen) snel
 * 3.4 – 5.8 sec	(oranje) middelmatig
 * meer dan 5.8 sec (rood) traag
+
 Met een tijd van 1.3 sec wordt de inhoud van de webpagina snel visueel ingeladen. Goede oplossingen voor het verbeteren van de Speed Index zijn: de workload op de main thread verminderen, Javascript execution time te verminderen en om ervoor te zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 Dat laatste kun je doen door gebruik te maken van de `font-display` property in CSS. Of door je fonts vooraf in te laden `<link rel="preload" as="font">`.
 
@@ -62,19 +61,18 @@ Dat laatste kun je doen door gebruik te maken van de `font-display` property in 
 
 
 ### Total Blocking Time (TBT)
-_Beschrijf de uitslag van de TBT van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
 De TBT meet de totale tijd (in ms) dat een pagina niet reageert op gebruikersinvoer, zoals muisklikken, schermtikken of toetsenborddrukken. De totale tijd wordt berekend door het blokkerende deel van alle "Long Tasks" tussen FCP en TTI bij elkaar op te tellen. Als een taak langer dan 50 ms duurt is het een Long Task. De tijd daarna is het blokkerende deel. 
 * 0 – 200 ms	(groen) snel
 * 200 - 600 ms	(oranje) middelmatig
 * meer dan 600 ms	(rood) traag
+
 Met een tijd van 20 ms heeft de webpagina weinig TBT en reageert dus snel op gebruikersinvoer.
 
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165157364-0423e559-2890-4a97-8a61-eae4288920d5.png)
 
 
 ### Largest Contentful Paint (LCP)
-_Beschrijf de uitslag van de LCP van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
 De LCP meet hoelang het duurt voordat de grootste content element dat zichtbaar is in de viewport is gerendeerd op het scherm.
 
@@ -84,7 +82,6 @@ Met een tijd van 2.9 sec heeft de LCP een rode kleurcode. Dit is niet heel snel,
 
 
 ### Cumulative Layout Shift (CLS)
-_Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
 De CLS meet de de beweging van zichtbare elementen binnen de viewport. Hoe hoger de CLS hoe vaker de gebruiker onverwachte lay-outverschuivingen van de webpagina ervaart. Dit kan heel irritant voor gebruikers zijn en er misschien voor zorgen dat je op een verkeerde link klikt. 
 Met een score van 0.149 heeft de CLS een oranje kleurcode wat betekent dat er ruimte is voor verbetering. Voor een groene kleurcode moet je streven naar een score van 0.1 of lager.
