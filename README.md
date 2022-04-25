@@ -43,13 +43,22 @@ Text-based bestanden kunnen worden gecomprimeerd om het totale aantal netwerkbyt
 _Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 De TTI geeft aan hoe lang het duurt voordat de webpagina volledig interactief is voor de gebruiker.
 
-Het duurt 3.2 seconden voordat de webpagina volledig interactief is voor de gebruiker. Dit geeft een oranje kleurcode en kan dus beter. Een manier om dit te verbeteren is om de execution time van Javascript te verminderen. Dit kan door onnodige Javascript code te verwijderen of om het op te splitsen. Nog een manier is om de workload op de main thread te minimaliseren.
+Het duurt 3.2 seconden voordat de webpagina volledig interactief is voor de gebruiker. Dit geeft een oranje kleurcode aan en kan dus beter. Een manier om dit te verbeteren is om de execution time van Javascript te verminderen. Dit kan door onnodige Javascript code te verwijderen of om het op te splitsen. Nog een manier is om de workload op de main thread te minimaliseren.
 
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165152352-e1fd945c-b721-4d02-a310-008e82735405.png)
 
 
 ### Speed Index
 _Beschrijf de uitslag van de SI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+
+De Speed Index meet hoe snel de inhoud van de webpagina visueel wordt weergegeven tijdens het laden van de webpagina.
+* 0–3.4 sec	(groen) snel
+* 3.4 – 5.8 sec	(oranje) middelmatig
+* meer dan 5.8 sec (rood) traag
+Met een tijd van 1.3 sec wordt de inhoud van de webpagina snel visueel ingeladen. Goede oplossingen voor het verbeteren van de Speed Index zijn: de workload op de main thread verminderen, Javascript execution time te verminderen en om ervoor te zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts. Dat laatste kun je doen door gebruik te maken van de `font-display` property in CSS. Of door je fonts vooraf in te laden `<link rel="preload" as="font">`.
+
+![afbeelding](https://user-images.githubusercontent.com/26089533/165154349-f8d0ad49-1268-456f-9cef-fcd0699ee8b3.png)
+
 
 ### Total Blocking Time (TBT)
 _Beschrijf de uitslag van de TBT van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
