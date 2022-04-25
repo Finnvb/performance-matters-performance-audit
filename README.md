@@ -21,15 +21,15 @@ _Beschrijf de uitslag van de FCP van de test en toon de resultaten. Beschrijf wa
 De FCP geeft aan hoe lang het de browser duurt in seconden om het eerste stukje DOM content te renderen. 
 * 0 - 1.8 sec (groen) snel
 * 1.8 - 3 sec (oranje) middelmatig
-* > 3 sec (rood) traag
+* meer dan 3 sec (rood) traag
 
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165137776-5688122b-0d31-4b47-8851-4ccc92004690.png)
 
 Met een tijd van 0.6 sec. wordt het eerste stuk content snel geladen en gerendeerd. 
 
-<img width="500" src="https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png" />
+<img width="400" src="https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png" />
 
-<img width="300" src="https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png" />
+<img width="400" src="https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png" />
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png)
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png)
 
