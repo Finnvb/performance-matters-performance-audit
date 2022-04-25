@@ -41,6 +41,12 @@ Text-based bestanden kunnen worden gecomprimeerd om het totale aantal netwerkbyt
 
 ### Time to Interactive (TTI)
 _Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+De TTI geeft aan hoe lang het duurt voordat de webpagina volledig interactief is voor de gebruiker.
+
+Het duurt 3.2 seconden voordat de webpagina volledig interactief is voor de gebruiker. Dit geeft een oranje kleurcode en kan dus beter. Een manier om dit te verbeteren is om de execution time van Javascript te verminderen. Dit kan door onnodige Javascript code te verwijderen of om het op te splitsen. Nog een manier is om de workload op de main thread te minimaliseren.
+
+![afbeelding](https://user-images.githubusercontent.com/26089533/165152352-e1fd945c-b721-4d02-a310-008e82735405.png)
+
 
 ### Speed Index
 _Beschrijf de uitslag van de SI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
