@@ -32,6 +32,7 @@ Er zijn bestanden die de "First paint" van de website blokkeren. Dit zijn twee C
 - **Enable text compression**
 
 Text-based bestanden kunnen worden gecomprimeerd om het totale aantal netwerkbytes van die bestanden te minimaliseren. Om dit te realiseren kun je gzip, deflate of brotli gebruiken.
+
 <img width="450" src="https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png" />
 
 <img width="450" src="https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png" />
