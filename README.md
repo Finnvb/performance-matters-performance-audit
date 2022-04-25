@@ -1,7 +1,6 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Walibi Performance Audit
-Dit is een performance Audit voor de website van Walibi met behulp van Lighthouse. Met Lighthouse wordt er een score voor de performance gegenereerd en wat je zou kunnen doen om die score te verbeteren. 
+Dit is een performance Audit voor de website van Walibi met behulp van Lighthouse. Met Lighthouse wordt er een score voor de performance gegenereerd en wordt er aangegeven wat je zou kunnen doen om die score te verbeteren. 
 
 
 
@@ -14,11 +13,23 @@ Ik heb de website van Walibi geanalyseerd. Walibi is een attractiepark gelegen i
 
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165131280-a382c5eb-1f2d-4faf-96fd-152056cef922.png)
 
-
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165129977-0cef0be2-53b3-4853-9cef-c4aea0fe09b6.png)
 
 ### First Contentful Paint (FCP)
 _Beschrijf de uitslag van de FCP van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+
+De FCP geeft aan hoe lang het de browser duurt in seconden om het eerste stukje DOM content te renderen. 
+* 0 - 1.8 sec (groen) snel
+* 1.8 - 3 sec (oranje) middelmatig
+* > 3 sec (rood) traag
+![afbeelding](https://user-images.githubusercontent.com/26089533/165137776-5688122b-0d31-4b47-8851-4ccc92004690.png)
+
+Met een tijd van 0.6 sec. wordt het eerste stuk content snel geladen en gerendeerd. 
+![afbeelding](https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png)
+![afbeelding](https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png)
+
+Dit kan nog sneller door het volgende toe te passen:
+
 
 ### Time to Interactive (TTI)
 _Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
