@@ -88,11 +88,14 @@ _Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wa
 
 De CLS meet de de beweging van zichtbare elementen binnen de viewport. Hoe hoger de CLS hoe vaker de gebruiker onverwachte lay-outverschuivingen van de webpagina ervaart. Dit kan heel irritant voor gebruikers zijn en er misschien voor zorgen dat je op een verkeerde link klikt. 
 Met een score van 0.149 heeft de CLS een oranje kleurcode wat betekent dat er ruimte is voor verbetering. Voor een groene kleurcode moet je streven naar een score van 0.1 of lager.
-Dit kun je bereiken door alle img elements een expliciete breedte en hoogte te geven. Animaties die niet zijn samengesteld, kunnen janky zijn en de CLS verhogen.
+Dit kun je bereiken door alle img elements een expliciete hoogte en breedte te geven. En om non-composited animations te vermijden.
+
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165164844-c3848a68-4f92-47ea-af5c-34b8fbfd5094.png)
 
 
 ## Bronnen
+- [Walibi](https://www.walibi.nl/nl)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 ## Licentie
 
