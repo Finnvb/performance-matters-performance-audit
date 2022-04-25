@@ -26,8 +26,8 @@ De FCP geeft aan hoe lang het de browser duurt in seconden om het eerste stukje 
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165137776-5688122b-0d31-4b47-8851-4ccc92004690.png)
 
 Met een tijd van 0.6 sec. wordt het eerste stuk content snel geladen en gerendeerd. Dit kan nog sneller door het volgende toe te passen:
-- <bold>Eliminate render-blocking resources</bold> 
-Er zijn bestanden die de "First paint" van de website blokkeren. Dit zijn twee CSS bestanden en een JS bestand. Een oplossing hiervoor is het gebruik van modules voor critical CSS en JS of om assets asynchroon in te laden met Javascirpt
+- Eliminate render-blocking resources
+Er zijn bestanden die de "First paint" van de website blokkeren. Dit zijn twee CSS bestanden en een JS bestand. Een oplossing hiervoor is het gebruik van modules voor critical CSS en JS of om bepaalde assets asynchroon in te laden met Javascript.
 <img width="450" src="https://user-images.githubusercontent.com/26089533/165138739-d7f91594-eb51-4a73-a887-9106584dac51.png" />
 
 <img width="450" src="https://user-images.githubusercontent.com/26089533/165138803-7a448703-6171-4dc3-be3a-5233999544fc.png" />
