@@ -9,6 +9,12 @@ Dit is een performance Audit van de website van Walibi met behulp van Lighthouse
 ## ContentAudit
 Ik heb de website van Walibi geanalyseerd. Walibi is een attractiepark gelegen in Flevoland. Op de website kun je onder andere tickets bestellen. 
 
+- Testdatum: 25-4-2022
+- website link: https://www.walibi.nl/nl
+
+![afbeelding](https://user-images.githubusercontent.com/26089533/165131280-a382c5eb-1f2d-4faf-96fd-152056cef922.png)
+
+
 ![afbeelding](https://user-images.githubusercontent.com/26089533/165129977-0cef0be2-53b3-4853-9cef-c4aea0fe09b6.png)
 
 ### First Contentful Paint (FCP)
