@@ -1,7 +1,7 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Walibi Performance Audit
-Dit is een performance Audit van de website van Walibi met behulp van Lighthouse.
+Dit is een performance Audit voor de website van Walibi met behulp van Lighthouse. Met Lighthouse wordt er een score voor de performance gegenereerd en wat je zou kunnen doen om die score te verbeteren. 
 
 
 
